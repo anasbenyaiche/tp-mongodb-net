@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "6651000000000000000000c8"
+    },
+    "fullName": "Claire Dubois",
+    "email": "claire@mail.fr",
+    "city": "Lyon",
+    "loyaltyPoints": 120,
+    "createdAt": {
+      "$date": "2025-01-10T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000c9"
+    },
+    "fullName": "Karim Benali",
+    "email": "karim.benali@mail.fr",
+    "city": "Paris",
+    "loyaltyPoints": 40,
+    "createdAt": {
+      "$date": "2025-01-11T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000ca"
+    },
+    "fullName": "Sophie Martin",
+    "email": "sophie.martin@mail.fr",
+    "city": "Lille",
+    "loyaltyPoints": 0,
+    "createdAt": {
+      "$date": "2025-01-12T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000cb"
+    },
+    "fullName": "Hugo Lefevre",
+    "email": "hugo.lefevre@mail.fr",
+    "city": "Décines-Charpieu",
+    "loyaltyPoints": 75,
+    "createdAt": {
+      "$date": "2025-01-13T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000cc"
+    },
+    "fullName": "Inès Garcia",
+    "email": "ines.garcia@mail.fr",
+    "city": "Saint-Denis",
+    "loyaltyPoints": 10,
+    "createdAt": {
+      "$date": "2025-01-14T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000cd"
+    },
+    "fullName": "Lucas Moreau",
+    "email": "lucas.moreau@mail.fr",
+    "city": "Carhaix-Plouguer",
+    "loyaltyPoints": 200,
+    "createdAt": {
+      "$date": "2025-01-15T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000ce"
+    },
+    "fullName": "Emma Rousseau",
+    "email": "emma.rousseau@mail.fr",
+    "city": "Paris",
+    "loyaltyPoints": 55,
+    "createdAt": {
+      "$date": "2025-01-16T09:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6651000000000000000000cf"
+    },
+    "fullName": "Noah Fontaine",
+    "email": "noah.fontaine@mail.fr",
+    "city": "Tours",
+    "loyaltyPoints": 5,
+    "createdAt": {
+      "$date": "2025-01-17T09:00:00Z"
+    }
+  }
+]

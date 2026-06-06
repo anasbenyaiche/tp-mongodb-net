@@ -1,0 +1,722 @@
+[
+  {
+    "_id": {
+      "$oid": "66510000000000000000012c"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c8"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000069"
+    },
+    "sessionDate": {
+      "$date": "2025-10-03T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "40.60"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "121.80"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-08T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000012d"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c9"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000065"
+    },
+    "sessionDate": {
+      "$date": "2025-09-20T18:30:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 4,
+        "unitPrice": {
+          "$numberDecimal": "29.40"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "117.60"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-04-01T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000012e"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cb"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000064"
+    },
+    "sessionDate": {
+      "$date": "2025-07-12T18:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 1,
+        "unitPrice": {
+          "$numberDecimal": "62.30"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "62.30"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-07T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000012f"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cb"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000069"
+    },
+    "sessionDate": {
+      "$date": "2025-10-03T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "58.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "174.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-04-25T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000130"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000ce"
+    },
+    "eventId": {
+      "$oid": "66510000000000000000006a"
+    },
+    "sessionDate": {
+      "$date": "2025-04-27T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "45.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "135.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-07T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000131"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c9"
+    },
+    "eventId": {
+      "$oid": "66510000000000000000006a"
+    },
+    "sessionDate": {
+      "$date": "2025-04-27T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Carré Or",
+        "quantity": 4,
+        "unitPrice": {
+          "$numberDecimal": "72.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "288.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-04-12T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000132"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cc"
+    },
+    "eventId": {
+      "$oid": "66510000000000000000006a"
+    },
+    "sessionDate": {
+      "$date": "2025-04-27T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Carré Or",
+        "quantity": 4,
+        "unitPrice": {
+          "$numberDecimal": "72.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "288.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-04T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000133"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cc"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000067"
+    },
+    "sessionDate": {
+      "$date": "2025-07-18T19:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "55.30"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "165.90"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-07T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000134"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c8"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000069"
+    },
+    "sessionDate": {
+      "$date": "2025-10-03T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 2,
+        "unitPrice": {
+          "$numberDecimal": "40.60"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "81.20"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-06-03T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000135"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c9"
+    },
+    "eventId": {
+      "$oid": "66510000000000000000006a"
+    },
+    "sessionDate": {
+      "$date": "2025-04-27T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "45.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "135.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-07-21T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000136"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000ca"
+    },
+    "eventId": {
+      "$oid": "66510000000000000000006a"
+    },
+    "sessionDate": {
+      "$date": "2025-04-27T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "45.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "135.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-22T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000137"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000ca"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000066"
+    },
+    "sessionDate": {
+      "$date": "2025-05-18T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 2,
+        "unitPrice": {
+          "$numberDecimal": "38.50"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "77.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-15T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000138"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cb"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000067"
+    },
+    "sessionDate": {
+      "$date": "2025-07-18T19:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "55.30"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "165.90"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-04-08T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000139"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cd"
+    },
+    "eventId": {
+      "$oid": "66510000000000000000006a"
+    },
+    "sessionDate": {
+      "$date": "2025-04-27T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 3,
+        "unitPrice": {
+          "$numberDecimal": "45.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "135.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-04-07T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000013a"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cb"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000068"
+    },
+    "sessionDate": {
+      "$date": "2025-06-05T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 4,
+        "unitPrice": {
+          "$numberDecimal": "48.30"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "193.20"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-07-21T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000013b"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cc"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000067"
+    },
+    "sessionDate": {
+      "$date": "2025-07-18T19:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Carré Or",
+        "quantity": 2,
+        "unitPrice": {
+          "$numberDecimal": "126.40"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "252.80"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-18T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000013c"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000ce"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000066"
+    },
+    "sessionDate": {
+      "$date": "2025-05-18T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 2,
+        "unitPrice": {
+          "$numberDecimal": "55.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "110.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-17T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000013d"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c8"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000067"
+    },
+    "sessionDate": {
+      "$date": "2025-07-18T19:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Carré Or",
+        "quantity": 2,
+        "unitPrice": {
+          "$numberDecimal": "126.40"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "252.80"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-26T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000013e"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c9"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000069"
+    },
+    "sessionDate": {
+      "$date": "2025-10-03T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 4,
+        "unitPrice": {
+          "$numberDecimal": "58.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "232.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-15T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66510000000000000000013f"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c8"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000068"
+    },
+    "sessionDate": {
+      "$date": "2025-06-05T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 1,
+        "unitPrice": {
+          "$numberDecimal": "48.30"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "48.30"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-25T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000140"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000c9"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000066"
+    },
+    "sessionDate": {
+      "$date": "2025-05-18T21:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 4,
+        "unitPrice": {
+          "$numberDecimal": "55.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "220.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-05-15T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000141"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000ca"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000064"
+    },
+    "sessionDate": {
+      "$date": "2025-07-12T18:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 2",
+        "quantity": 1,
+        "unitPrice": {
+          "$numberDecimal": "62.30"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "62.30"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-06-27T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000142"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000ca"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000069"
+    },
+    "sessionDate": {
+      "$date": "2025-10-03T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 2,
+        "unitPrice": {
+          "$numberDecimal": "58.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "116.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-08-25T14:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665100000000000000000143"
+    },
+    "customerId": {
+      "$oid": "6651000000000000000000cd"
+    },
+    "eventId": {
+      "$oid": "665100000000000000000068"
+    },
+    "sessionDate": {
+      "$date": "2025-06-05T20:00:00Z"
+    },
+    "items": [
+      {
+        "category": "Catégorie 1",
+        "quantity": 1,
+        "unitPrice": {
+          "$numberDecimal": "69.00"
+        }
+      }
+    ],
+    "total": {
+      "$numberDecimal": "69.00"
+    },
+    "status": "confirmed",
+    "createdAt": {
+      "$date": "2025-04-12T14:00:00Z"
+    }
+  }
+]
