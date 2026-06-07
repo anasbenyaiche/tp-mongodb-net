@@ -1,0 +1,51 @@
+services:
+  # --- Config server (replica set "cfgrs") ---
+  cfg1:
+    image: mongo:7
+    container_name: cfg1
+    command:
+      ["--configsvr", "--replSet", "cfgrs", "--port", "27017", "--bind_ip_all"]
+
+  # --- Shard 1 (replica set "shard1rs") ---
+  shard1:
+    image: mongo:7
+    container_name: shard1
+    command:
+      [
+        "--shardsvr",
+        "--replSet",
+        "shard1rs",
+        "--port",
+        "27017",
+        "--bind_ip_all",
+      ]
+
+  # --- Shard 2 (replica set "shard2rs") ---
+  shard2:
+    image: mongo:7
+    container_name: shard2
+    command:
+      [
+        "--shardsvr",
+        "--replSet",
+        "shard2rs",
+        "--port",
+        "27017",
+        "--bind_ip_all",
+      ]
+
+  # --- Routeur mongos ---
+  mongos:
+    image: mongo:7
+    container_name: mongos
+    command:
+      [
+        "mongos",
+        "--configdb",
+        "cfgrs/cfg1:27017",
+        "--bind_ip_all",
+        "--port",
+        "27017",
+      ]
+    ports: ["27021:27017"]
+    depends_on: [cfg1, shard1, shard2]
