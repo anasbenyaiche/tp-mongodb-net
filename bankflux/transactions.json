@@ -1,0 +1,15 @@
+[
+  { "accountId": { "$oid": "665200000000000000000001" }, "type": "deposit",    "amount": { "$numberDecimal": "1500.00" }, "label": "Salaire",             "date": { "$date": "2025-01-31T06:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000001" }, "type": "withdrawal", "amount": { "$numberDecimal": "-60.00" },  "label": "Retrait DAB",         "date": { "$date": "2025-02-02T18:30:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000001" }, "type": "withdrawal", "amount": { "$numberDecimal": "-89.25" },  "label": "Courses",             "date": { "$date": "2025-02-05T12:10:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000001" }, "type": "transfer",   "amount": { "$numberDecimal": "-100.00" }, "label": "Virement vers épargne","date": { "$date": "2025-02-06T09:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000002" }, "type": "transfer",   "amount": { "$numberDecimal": "100.00" },  "label": "Virement depuis courant","date": { "$date": "2025-02-06T09:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000003" }, "type": "deposit",    "amount": { "$numberDecimal": "900.00" },  "label": "Salaire",             "date": { "$date": "2025-01-31T06:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000003" }, "type": "withdrawal", "amount": { "$numberDecimal": "-469.80" }, "label": "Loyer",               "date": { "$date": "2025-02-01T08:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000004" }, "type": "deposit",    "amount": { "$numberDecimal": "3000.00" }, "label": "Salaire",             "date": { "$date": "2025-01-31T06:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000004" }, "type": "withdrawal", "amount": { "$numberDecimal": "-250.00" }, "label": "Assurance",           "date": { "$date": "2025-02-03T10:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000005" }, "type": "deposit",    "amount": { "$numberDecimal": "300.50" },  "label": "Intérêts",            "date": { "$date": "2025-01-01T00:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000006" }, "type": "deposit",    "amount": { "$numberDecimal": "95.00" },   "label": "Dépôt initial",       "date": { "$date": "2025-01-08T09:00:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000007" }, "type": "deposit",    "amount": { "$numberDecimal": "5000.00" }, "label": "Versement épargne",   "date": { "$date": "2024-09-30T16:30:00Z" } },
+  { "accountId": { "$oid": "665200000000000000000007" }, "type": "deposit",    "amount": { "$numberDecimal": "200.00" },  "label": "Intérêts",            "date": { "$date": "2025-01-01T00:00:00Z" } }
+]

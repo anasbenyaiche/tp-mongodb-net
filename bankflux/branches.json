@@ -1,0 +1,7 @@
+[
+  { "_id": { "$oid": "665300000000000000000001" }, "name": "Agence Opéra",                 "address": { "street": "Bd des Capucines",     "city": "Paris",     "zip": "75009" }, "location": { "type": "Point", "coordinates": [2.3318, 48.8709] } },
+  { "_id": { "$oid": "665300000000000000000002" }, "name": "Agence Bastille",              "address": { "street": "Pl. de la Bastille",   "city": "Paris",     "zip": "75011" }, "location": { "type": "Point", "coordinates": [2.3692, 48.8530] } },
+  { "_id": { "$oid": "665300000000000000000003" }, "name": "Agence La Défense",            "address": { "street": "Parvis de la Défense", "city": "Puteaux",   "zip": "92800" }, "location": { "type": "Point", "coordinates": [2.2369, 48.8918] } },
+  { "_id": { "$oid": "665300000000000000000004" }, "name": "Agence Lyon Bellecour",        "address": { "street": "Pl. Bellecour",        "city": "Lyon",      "zip": "69002" }, "location": { "type": "Point", "coordinates": [4.8320, 45.7578] } },
+  { "_id": { "$oid": "665300000000000000000005" }, "name": "Agence Marseille Vieux-Port",  "address": { "street": "Quai du Port",         "city": "Marseille", "zip": "13002" }, "location": { "type": "Point", "coordinates": [5.3698, 43.2965] } }
+]

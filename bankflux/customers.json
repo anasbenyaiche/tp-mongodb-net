@@ -1,0 +1,7 @@
+[
+  { "_id": { "$oid": "665100000000000000000001" }, "fullName": "Claire Dubois", "email": "claire@bankflux.fr", "city": "Lyon",      "phone": "+33 6 12 34 56 78", "loyaltyPoints": 120, "createdAt": { "$date": "2024-02-10T09:00:00Z" } },
+  { "_id": { "$oid": "665100000000000000000002" }, "fullName": "Marc Petit",    "email": "marc@bankflux.fr",   "city": "Paris",     "phone": "+33 6 22 33 44 55", "loyaltyPoints": 45,  "createdAt": { "$date": "2024-05-03T14:30:00Z" } },
+  { "_id": { "$oid": "665100000000000000000003" }, "fullName": "Awa Ndiaye",    "email": "awa@bankflux.fr",    "city": "Marseille", "phone": "+33 6 33 44 55 66", "loyaltyPoints": 300, "createdAt": { "$date": "2023-11-21T11:15:00Z" } },
+  { "_id": { "$oid": "665100000000000000000004" }, "fullName": "Yuki Tanaka",   "email": "yuki@bankflux.fr",   "city": "Paris",     "phone": "+33 6 44 55 66 77", "loyaltyPoints": 0,   "createdAt": { "$date": "2025-01-08T08:45:00Z" } },
+  { "_id": { "$oid": "665100000000000000000005" }, "fullName": "Omar Haddad",   "email": "omar@bankflux.fr",   "city": "Lyon",      "phone": "+33 6 55 66 77 88", "loyaltyPoints": 80,  "createdAt": { "$date": "2024-09-30T16:20:00Z" } }
+]
