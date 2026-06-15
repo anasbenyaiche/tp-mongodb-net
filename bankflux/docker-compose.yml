@@ -2,22 +2,22 @@ services:
   mongo1:
     image: mongo:7
     container_name: mongo1
-    command: ["--replSet", "rs0", "--bind_ip_all"]
-    ports: ["27018:27017"]
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27018"]
+    ports: ["27018:27018"]
     volumes: ["mongo1_data:/data/db"]
 
   mongo2:
     image: mongo:7
     container_name: mongo2
-    command: ["--replSet", "rs0", "--bind_ip_all"]
-    ports: ["27019:27017"]
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27019"]
+    ports: ["27019:27019"]
     volumes: ["mongo2_data:/data/db"]
 
   mongo3:
     image: mongo:7
     container_name: mongo3
-    command: ["--replSet", "rs0", "--bind_ip_all"]
-    ports: ["27020:27017"]
+    command: ["--replSet", "rs0", "--bind_ip_all", "--port", "27020"]
+    ports: ["27020:27020"]
     volumes: ["mongo3_data:/data/db"]
 
 volumes:
