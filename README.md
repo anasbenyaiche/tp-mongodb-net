@@ -117,10 +117,4 @@ correspondre à la cohérence de ses opérations — est donc vérifiable dès l
 
 
 
-**
-Lien émargement et évaluation
-https://docadmin.orsys.fr/
 
-
-Mot de passe : ZxXsvByVZ
-**
