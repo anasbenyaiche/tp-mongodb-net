@@ -9,7 +9,11 @@ for (let i = 1; i <= 10; i++) {
     sku: "P" + String(i).padStart(3, "0"),
     name: "Produit " + i,
     price: 10 * i,
-    stock: 100 - i
+    stock: 100 - i,
   });
 }
-print("formation.products : " + db.products.countDocuments() + " documents chargés.");
+print(
+  "formation.products : " +
+    db.products.countDocuments() +
+    " documents chargés.",
+);

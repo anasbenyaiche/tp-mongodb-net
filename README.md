@@ -9,6 +9,7 @@ Ce dossier contient **tous les jeux de données** des ateliers. Le but : **exéc
  
 ```
 datasets/
+├─ data                        ← data pour faire des opération ( cars, movies)   
 ├─ seed-all.js                 ← amorçage complet en UNE commande
 ├─ shell/
 │  ├─ 01-formation-movies.js   ← Module 2 / Atelier 2.2 (Netflix)
@@ -108,7 +109,7 @@ correspondre à la cohérence de ses opérations — est donc vérifiable dès l
 | Base       | Collection    | Documents                          |
 | ---------- | ------------- | ---------------------------------- |
 | formation  | movies        | 7                                  |
-| formation  | cars          | 4                                  |
+| formation  | cars          | 7                                 |
 | formation  | products      | 10                                 |
 | bankflux   | customers     | 5                                  |
 | bankflux   | accounts      | 7 (dont 6 *active*, 1 *pending*)   |
